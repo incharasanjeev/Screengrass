@@ -1,0 +1,47 @@
+/* TaskForm.css */
+
+.task-form {
+    
+}
+
+.task-form {
+  max-width: 600px; /* Adjust the width as per your requirement */
+  margin: 0 auto;
+  /* background-color: #ffffff; */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-form h2 {
+  color:black;
+  font-weight: bold;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-color: #ced4da;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.form-control:focus {
+  border-color:black;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  background-color:black;
+  border-color:whitesmoke;
+}
+
+.btn-primary:hover {
+  background-color:rgb(36, 28, 28);
+  border-color: black;
+}
